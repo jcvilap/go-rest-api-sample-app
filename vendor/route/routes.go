@@ -5,7 +5,7 @@ import (
 	"controller"
 )
 
-func NewRouter() {
+func Route() {
 	// App Routes
 	http.HandleFunc("/", controller.Main)
 }

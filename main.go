@@ -8,7 +8,7 @@ import (
 
 func main() {
 	// Create routes
-	route.NewRouter()
+	route.Route()
 	
 	// Start server
 	err := http.ListenAndServe(":8080", nil)
